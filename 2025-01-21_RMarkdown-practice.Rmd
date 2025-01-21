@@ -1,0 +1,50 @@
+---
+title: "2025-01-21_RMarkdown-practice"
+author: "DPS"
+date: "2025-01-21"
+output: html_document
+---
+
+# Big Header
+## Medium Header
+### Small Heading
+#### Tiny header
+
+some random text about data code chunks
+
+```{r}
+x= c(1,2,3)
+print(x)
+```
+
+```{r}
+x = c(1,2,3)
+y=c(5,6,7)
+plot(x,y)
+```
+
+more text
+
+```{r, echo = FALSE}
+mean(y)
+```
+
+then run `mean` to sdfasdfsa
+
+the mean of my data is `r mean(y)` cats which means ...
+
+my pets:
+
+- Nana
+- Bonnie
+- Clyde
+
+fav pizza:
+
+1. pineapple
+2. bacon
+3. mushrooms
+
+Link to website <https://sc.edu/>
+
+!["Here is my caption](NameOfPictureFile){width=20%}

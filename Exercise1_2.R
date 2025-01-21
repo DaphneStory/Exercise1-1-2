@@ -70,3 +70,5 @@ Inf +2
 dat2 = c(1,2, NA, 3, NULL, 4)
 dat2
 length(dat2)
+
+library(rmarkdown)
